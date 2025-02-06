@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discord Invite Info</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Container -->
+<div class="container">
+  <h1>Discord Invite Information</h1>
+  <input type="text" id="inviteURL" placeholder="Enter Discord invite URL" />
+  <button onclick="fetchInviteData()">Get Info</button>
+  <button class="toggle-dark-mode" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+  <div class="response" id="responseData">
+    <h2>Invite Info</h2>
+    <p><span class="label">Server Name:</span> <span id="serverName"></span></p>
+	<p><span class="label">Server Description:</span> <span id="guildDescription"></span></p><br>
+	<p><span class="label">Total Members:</span> <span id="membersServer"></span></p>
+    <p><span class="label">Online Members:</span> <span id="membersOnline"></span></p><br>
+	<p><span class="label">Link Expires At:</span> <span id="expirationTime"></span></p>
+	<p><span class="label">Invite Code:</span> <span id="inviteCode"></span></p>
+    
+	<!-- Inviter -->
+    <div id="inviterInfo">
+      <h3>Inviter</h3>
+      <p><span class="label">Display Name:</span> <span id="inviterDisplayName"></span></p>
+	  <p><span class="label">Username:</span> <span id="inviterUsername"></span></p>
+      <p><span class="label">Profile Picture:</span> <img id="inviterpfp" alt="PFP" /></p>
+    </div>
+
+    <button class="view-raw-button" onclick="toggleRawResponse()">View Raw</button>
+    <button class="more-details-button" onclick="toggleMoreDetails()">More Details</button>
+  </div>
+
+  <!-- More Details Section -->
+  <div class="more-details" id="moreDetails">
+    <p><span class="label">Verification Level:</span> <span id="verificationLevel"></span></p>
+    <p><span class="label">Guild Features:</span> <span id="guildFeatures"></span></p>
+    <p><span class="label">NSFW Level:</span> <span id="nsfwLevel"></span></p>
+  </div>
+</div>
+
+<!-- Raw Response -->
+<div class="raw-response" id="rawResponse">
+  <h2>Raw API Response</h2>
+  <pre id="prettyRawResponse"></pre>
+</div>
+
+<!-- Link to JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
