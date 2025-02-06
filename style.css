@@ -1,0 +1,216 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8b8da5;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Body Dark */
+body.dark-mode {
+  background-color: #353535;
+  color: #e4e4e4;
+}
+
+/* Container */
+.container {
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.container.dark-mode {
+  background-color: #1f1f1f;
+}
+
+h1 {
+  color: #5865f2;
+  word-wrap: break-word;
+}
+
+.dark-mode h1 {
+  color: #7777ee;
+}
+
+/* Input Field */
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 15px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Input Dark Mode */
+body.dark-mode input[type="text"] {
+  background-color: #2d2d2d;
+  color: #e4e4e4;
+  border: 2px solid #444;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  background-color: #5865f2;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #7777ee;
+}
+
+/* Response */
+.response {
+  margin-top: 20px;
+  text-align: left;
+  display: none;
+  max-height: 400px;
+  overflow-y: auto;
+  word-wrap: break-word;
+}
+
+.response h2 {
+  color: #444;
+}
+
+.response p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+  word-wrap: break-word;
+}
+
+.response .label {
+  font-weight: bold;
+  color: #444;
+}
+
+/* Response Dark Mode */
+.response.dark-mode {
+  background-color: #1f1f1f;
+  color: #e4e4e4;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.response.dark-mode h2 {
+  color: #e4e4e4;
+}
+
+.response.dark-mode p {
+  color: #ccc;
+}
+
+.response.dark-mode .label {
+  color: #fff;
+}
+
+.response img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+/* Raw Response */
+.raw-response {
+  margin-top: 20px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  text-align: left;
+  display: none;
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 10px;
+  border-radius: 15px;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  width: auto;
+  max-width: none;
+  min-width: auto;
+}
+
+.raw-response.dark-mode {
+  background-color: #121212;
+}
+
+/* Toggle Dark Mode Button */
+.toggle-dark-mode {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.toggle-dark-mode:hover {
+  background-color: #333;
+}
+
+/* View Raw Button */
+.view-raw-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.view-raw-button:hover {
+  background-color: #333;
+}
+
+/* More Details Button */
+.more-details-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.more-details-button:hover {
+  background-color: #333;
+}
+
+/* More Details Section */
+.more-details {
+  display: none;
+  margin-top: 20px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+/* More Details Dark Mode */
+.more-details.dark-mode {
+  background-color: #1f1f1f;
+  color: #e4e4e4;
+  padding: 10px;
+  border-radius: 15px;
+}
