@@ -2,24 +2,38 @@
 ---
 **Discord Server Invite link Checker** shows you the following information
 > **Details**
-- ✅ Server Name
-- ✅ Server Description
-- ✅ Total Members
-- ✅ Online Members
-- ✅ Link Expiry
-- ✅ Invite Code
-- ✅ Inviter Display Name
-- ✅ Inviter Username
-- ✅ Inviter Avatar
+- 🌌 Server Banner
+- 🖼️ Server Icon
+- ℹ️ Server Name
+- 🚀 Boost Levels
+- 📃 Server Description
+- 👥 Total Members
+- 🟢 Online Members
+- 🕒 Link Expiry
+- 🤝 Invite Code
+- 🙂 Inviter Display Name
+- ℹ️ Inviter Username
+- 📷 Inviter Avatar
+- 🖼️ Widget Info
+- 🆕 Preview Info
+- ❌ Badges
 
 ## ✨ More Details
 - Displays Guild Features
-- Display Raw API Responce
+- Display Raw API Response
 
 ---
 
 ## 📜 Change Log:
-- Initial Commit
+- ✅ Added Server Banner
+- ✅ Added Server Icon
+- ✅ Added Boost Levels
+- ✅ Added Inviter Avatar
+- ✅ Added Invite Type
+- ✅ Added Widget Info
+- ✅ Added Preview Info
+- 🐛 Bug fixes
+- 🐞 Added more bugs to fix later
 
 ---
 
